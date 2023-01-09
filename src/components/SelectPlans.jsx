@@ -1,6 +1,6 @@
 import React from "react";
 
-const SelectPlans = () => {
+const SelectPlans = ({ formData, setFormData }) => {
   return <div>SelectPlans</div>;
 };
 

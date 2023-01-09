@@ -1,6 +1,6 @@
 import React from "react";
 
-const Addons = () => {
+const Addons = ({ formData, setFormData }) => {
   return <div>Addons</div>;
 };
 

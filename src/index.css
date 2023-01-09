@@ -32,4 +32,9 @@
 
 body {
   font-family: "Ubuntu", sans-serif;
+  background-color: var(--color-neutral-magnolia);
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
 }

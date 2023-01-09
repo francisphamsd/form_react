@@ -1,6 +1,6 @@
 import React from "react";
 
-const Personaldetails = () => {
+const Personaldetails = ({ formData, setFormData }) => {
   return <div>Personaldetails</div>;
 };
 

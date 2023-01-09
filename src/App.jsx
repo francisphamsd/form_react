@@ -1,10 +1,10 @@
 import React from "react";
-import Signup from "./components/Signup";
+import Form from "./components/Form";
 
 function App() {
   return (
     <>
-      <Signup />
+      <Form />
     </>
   );
 }
