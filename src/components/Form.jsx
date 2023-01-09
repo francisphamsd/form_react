@@ -10,7 +10,7 @@ const Form = () => {
   const [page, setPage] = useState(0);
 
   const [formData, setFormData] = useState({
-    name: "",
+    fullName: "",
     email: "",
     phone: "",
     plan: "",
@@ -18,6 +18,8 @@ const Form = () => {
     a_o_storage: false,
     a_o_profile: false,
   });
+
+  console.log(formData);
 
   // Get page title and subtitle from data
   const formTitles = page_info.map(({ title, subtitle }) => {
@@ -58,11 +60,13 @@ const Form = () => {
 
       {/* Right side */}
       <div className="form-container">
-        <div className="form-container__title">
-          <h1>{formTitles[page][0]}</h1>
-          <p>{formTitles[page][1]}</p>
+        <div className="form-container__content">
+          <div className="form-container__title">
+            <h1>{formTitles[page][0]}</h1>
+            <p>{formTitles[page][1]}</p>
+          </div>
+          <div className="form-container__body">{PageRender()}</div>
         </div>
-        <div className="form-container__body">{PageRender()}</div>
         <div className="form-container__button">
           <button
             className="btn btn__prev-page"

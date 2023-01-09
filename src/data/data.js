@@ -40,23 +40,29 @@ export const page_info = [
   },
 ];
 
-export const page_your_info = [
-  {
-    id: 1,
-    label: "Name",
-    placeholder: "e.g. Stephen King",
-  },
-  {
-    id: 2,
-    label: "Email Address",
-    placeholder: "e.g. stephenking@lorem.com",
-  },
-  {
-    id: 3,
-    label: "Phone Number",
-    placeholder: "e.g. +1 234 567 8900",
-  },
-];
+// export const page_your_info = [
+//   {
+//     id: 1,
+//     label: "Name",
+//     name: "name",
+//     type: "text",
+//     placeholder: "e.g. Stephen King",
+//   },
+//   {
+//     id: 2,
+//     label: "Email Address",
+//     name: "email",
+//     type: "email",
+//     placeholder: "e.g. stephenking@lorem.com",
+//   },
+//   {
+//     id: 3,
+//     label: "Phone Number",
+//     name: "phone",
+//     type: "number",
+//     placeholder: "e.g. +1 234 567 8900",
+//   },
+// ];
 
 export const page_select_plan = [
   {

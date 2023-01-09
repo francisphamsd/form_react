@@ -1,21 +1,3 @@
-:root {
-  --color-primary-marine-blue: hsl(213, 96%, 18%);
-  --color-primary-purplish-blue: hsl(243, 100%, 62%);
-  --color-primary-pastel-blue: hsl(228, 100%, 84%);
-  --color-primary-light-blue: hsl(206, 94%, 87%);
-  --color-primary-strawberry-red: hsl(354, 84%, 57%);
-
-  --color-neutral-cool-gray: hsl(231, 11%, 63%);
-  --color-neutral-light-gray: hsl(229, 24%, 87%);
-  --color-neutral-magnolia: hsl(217, 100%, 97%);
-  --color-neutral-alabaster: hsl(231, 100%, 99%);
-  --color-neutral-white: hsl(0, 0%, 100%);
-
-  --max-width: calc(65% * 90rem);
-  --breakpoint-desktop: 90rem;
-  --breakpoint-mobile: 24rem;
-}
-
 .form {
   background-color: var(--color-neutral-white);
   width: 60rem;
@@ -74,7 +56,7 @@
 /*============ MAIN FORM ============*/
 
 .form-container {
-  padding: 2.875rem 6.25rem 1rem;
+  padding: 2.8rem 6.25rem 1rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -87,7 +69,7 @@
 
 .form-container__title p {
   color: var(--color-neutral-cool-gray);
-  margin-bottom: 4.5rem;
+  margin-bottom: 2.8rem;
 }
 
 /*============ BUTTON ============*/
