@@ -67,21 +67,21 @@ export const page_info = [
 export const page_select_plan = [
   {
     id: 1,
-    icon: "../assets/images/icon-arcade.svg",
+    // image: "../assets/images/icon-arcade.svg",
     title: "Arcade",
     monthly_cost: 9,
     yearly_cost: 90,
   },
   {
     id: 2,
-    icon: "../assets/images/icon-advanced.svg",
+    // image: "../assets/images/icon-advanced.svg",
     title: "Advanced",
     monthly_cost: 12,
     yearly_cost: 120,
   },
   {
     id: 3,
-    icon: "../assets/images/icon-pro.svg",
+    // image: "../assets/images/icon-pro.svg",
     title: "Pro",
     monthly_cost: 15,
     yearly_cost: 150,
