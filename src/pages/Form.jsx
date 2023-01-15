@@ -7,13 +7,14 @@ import Summary from "./Summary";
 import "../styles/form.css";
 
 const Form = () => {
-  const [page, setPage] = useState(1);
+  const [page, setPage] = useState(2);
 
   const [formData, setFormData] = useState({
     fullName: "",
     email: "",
     phone: "",
     plan: "Arcade",
+    plan_term: "Monthly",
     a_o_service: false,
     a_o_storage: false,
     a_o_profile: false,

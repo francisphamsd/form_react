@@ -1,0 +1,49 @@
+:root {
+  --color-primary-marine-blue: hsl(213, 96%, 18%);
+  --color-primary-purplish-blue: hsl(243, 100%, 62%);
+  --color-primary-pastel-blue: hsl(228, 100%, 84%);
+  --color-primary-light-blue: hsl(206, 94%, 87%);
+  --color-primary-strawberry-red: hsl(354, 84%, 57%);
+
+  --color-neutral-cool-gray: hsl(231, 11%, 63%);
+  --color-neutral-light-gray: hsl(229, 24%, 87%);
+  --color-neutral-magnolia: hsl(217, 100%, 97%);
+  --color-neutral-alabaster: hsl(231, 100%, 99%);
+  --color-neutral-white: hsl(0, 0%, 100%);
+
+  --max-width: calc(65% * 90rem);
+  --breakpoint-desktop: 90rem;
+  --breakpoint-mobile: 24rem;
+}
+
+.addons__items {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+.addons__item {
+  background: var(--color-neutral-white);
+  border: 1px solid var(--color-primary-purplish-blue);
+  border-radius: 8px;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.addons-item__input-container {
+  margin-right: 1.5rem;
+}
+
+.addons-item__label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.addons-item__text-content {
+}
+
+.addons-item__title {
+}
+/* addons-item__subtitle */
+/* addons-item__cost */

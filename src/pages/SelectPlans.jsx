@@ -5,16 +5,16 @@ import Plan from "../components/Plan";
 import PlanTermSwitch from "../components/PlanTermSwitch";
 const SelectPlans = ({ formData, setFormData }) => {
   const [isAnnually, setIsAnnually] = useState(false);
+
   return (
     <div className="select-plans__container">
       <div className="select-plans__plans">
-        {page_select_plan.map(({ id, title, monthly_cost, yearly_cost }) => {
+        {page_select_plan.map(({ id, title, monthly_cost }) => {
           return (
             <Plan
               id={id}
               title={title}
               monthly_cost={monthly_cost}
-              yearly_cost={yearly_cost}
               isAnnually={isAnnually}
               formData={formData}
               setFormData={setFormData}
@@ -22,7 +22,12 @@ const SelectPlans = ({ formData, setFormData }) => {
           );
         })}
       </div>
-      <PlanTermSwitch isAnnually={isAnnually} setIsAnnually={setIsAnnually} />
+      <PlanTermSwitch
+        isAnnually={isAnnually}
+        setIsAnnually={setIsAnnually}
+        formData={formData}
+        setFormData={setFormData}
+      />
     </div>
   );
 };

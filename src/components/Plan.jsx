@@ -7,7 +7,6 @@ const Card = ({
   id,
   title,
   monthly_cost,
-  yearly_cost,
   isAnnually,
   formData,
   setFormData,
@@ -40,7 +39,7 @@ const Card = ({
         {!isAnnually ? (
           <p className="plan__cost">${monthly_cost}/mo</p>
         ) : (
-          <p className="plan__cost">${yearly_cost}/yr</p>
+          <p className="plan__cost">${monthly_cost * 10}/yr</p>
         )}
         {isAnnually ? <p className="plan__discount">2 months free</p> : ""}
       </label>

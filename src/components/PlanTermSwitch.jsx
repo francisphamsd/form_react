@@ -1,6 +1,11 @@
 import React from "react";
 
-const PlanTermSwitch = ({ isAnnually, setIsAnnually }) => {
+const PlanTermSwitch = ({
+  isAnnually,
+  setIsAnnually,
+  formData,
+  setFormData,
+}) => {
   return (
     <div className="switch">
       <p className={isAnnually ? "switch__inactive" : "switch__active"}>
@@ -12,6 +17,10 @@ const PlanTermSwitch = ({ isAnnually, setIsAnnually }) => {
         id="switch__input"
         onChange={() => {
           setIsAnnually((prev) => !prev);
+          setFormData({
+            ...formData,
+            plan_term: isAnnually ? "Monthly" : "Yearly",
+          });
         }}
       />
       <label className="switch__label" htmlFor="switch__input">

@@ -70,21 +70,18 @@ export const page_select_plan = [
     // image: "../assets/images/icon-arcade.svg",
     title: "Arcade",
     monthly_cost: 9,
-    yearly_cost: 90,
   },
   {
     id: 2,
     // image: "../assets/images/icon-advanced.svg",
     title: "Advanced",
     monthly_cost: 12,
-    yearly_cost: 120,
   },
   {
     id: 3,
     // image: "../assets/images/icon-pro.svg",
     title: "Pro",
     monthly_cost: 15,
-    yearly_cost: 150,
   },
 ];
 
@@ -93,18 +90,18 @@ export const page_add_ons = [
     id: 1,
     title: "Online service",
     subtitle: "Access to multiplayer games",
-    montly_cost: 1,
+    monthly_cost: 1,
   },
   {
     id: 2,
     title: "Larger storage",
     subtitle: "Extra 1TB of cloud save",
-    montly_cost: 2,
+    monthly_cost: 2,
   },
   {
     id: 3,
     title: "Customizable Profile",
     subtitle: "Custom theme on your profile",
-    montly_cost: 2,
+    monthly_cost: 2,
   },
 ];
